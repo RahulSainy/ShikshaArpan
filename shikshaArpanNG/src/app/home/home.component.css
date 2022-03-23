@@ -1,0 +1,131 @@
+
+.hero{
+    background-color: #D9F0FF;
+    /* padding: 180px 0px 64px; */
+}
+
+.my-row{
+    padding: 180px 0px 64px;
+    position: relative;
+}
+
+.hero h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 78px;
+    font-weight: 900;
+    color: black;
+    letter-spacing: normal;
+    line-height: 78px;
+    margin-bottom: 24px;
+}
+
+.hero p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 40px
+}
+
+.my-search-group{
+    display: flex;
+    height: 104px;
+    border-radius: 54px;
+    padding: 1px 10px 1px 40px;
+    background-color: white;
+}
+
+.my-search-input{
+    flex-grow: 1;
+    border: none;
+    font-size:24px;
+    font-weight:400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.my-search-input:focus{
+    outline: none;
+}
+
+.my-search-btn{
+    display: flex;
+    width: 56px;
+    height:auto;
+    flex-basis:0;
+    background-color: black;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+
+.hero-animation{
+    position:absolute;
+    transform:scale(0.65);
+    transform-origin: bottom right;
+    bottom: 0;
+    right:0;
+}
+
+@media only screen and (max-width: 1200px){
+    .my-row{
+        padding: 160px 0px 64px;
+    }
+    .hero-animation{
+        transform:scale(0.55);
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .my-row{
+        padding: 120px 0px 48px;
+    }
+
+    .hero h1{
+        font-size: 39px;
+        font-weight: 900;
+        line-height: 44px;
+        margin-bottom: 24px;
+    }
+
+    .my-search-group{
+        height: 80px;
+        padding: 1px 1px 1px 32px;
+        
+    }
+
+    .my-search-input{
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (max-width: 871px){
+    .hero-animation{
+        transform:scale(0.45);
+    }
+}
+
+@media only screen and (max-width: 815px){
+    .hero-animation{
+        transform:scale(0.35);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .my-row{
+        padding: 100px 0px 48px;
+    }
+
+    .right{
+        display:none;
+    }
+
+    .my-search-group{
+        height: 60px;
+    }
+
+    .my-search-btn{
+        width: 36px;
+    }
+}

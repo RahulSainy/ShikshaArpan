@@ -1,0 +1,32 @@
+.box{
+    text-align: center;
+    margin-top: 40px;
+}
+.btn{
+    width: 250px;
+    border-radius: 20px;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
+.para{
+    align-items: center;
+    margin: 20px 5px;
+}
+.info{
+    margin-top: 20px;
+}
+.footer{
+    margin-top: 70px;
+}
+h5{
+    margin: 35x;
+}
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}

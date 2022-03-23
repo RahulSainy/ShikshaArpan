@@ -1,0 +1,115 @@
+.my-navbar{
+    background-color: #D9F0FF;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    transition: 0.3s;
+    z-index: 10;
+}
+
+.my-navbar.sticky{
+    height: 80px;
+    background-color: white;
+    border-bottom: 2px solid #EBF2F7;
+}
+
+.my-brand-pc{
+    transition: 0.3s;
+}
+
+.my-navbar.sticky .my-brand-pc{
+    transform: scale(0.5, 0.5);
+    transform-origin: left;
+}
+
+.my-navbar.sticky .my-item:last-child{
+    border: 2px solid black;
+}
+
+.my-brand-mobile{
+    display: none;
+}
+
+.my-brand{
+    width: 160px;
+    height: auto;
+    cursor: pointer;
+}
+
+.user-icon-container{
+    padding: 4px;
+    border-radius: 50%;
+    cursor:pointer;
+    transition: 0.4s;
+    margin-left: 6px;
+}
+
+.user-icon-container:hover{
+    background-color: #abb6bf;
+}
+
+.user-icon{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.my-item{
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 24px;
+}
+
+.my-item:hover:not(:last-child){
+    background-color: rgba(204,226,241,255);
+}
+
+.my-item:not(:last-child){
+    margin-right: 16px;
+    transition: 0.6s;
+}
+
+.my-item:last-child{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 8px 20px;
+}
+
+.my-item > a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing:normal;
+    color: #212529;
+}
+
+@media only screen and (max-width: 992px){
+    .my-navbar{
+        height: 100px;
+    }
+
+    .my-brand{
+        width: 40px;
+    }
+
+    .my-brand-pc{
+        display: none;
+    }
+
+    .my-brand-mobile{
+        display: block;
+    }
+
+    .my-item{
+        margin-right:  0px !important;
+    }
+
+    .my-item:first-child, .my-item:last-child{
+        display: none;
+    }
+}
