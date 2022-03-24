@@ -66,8 +66,14 @@
     bottom: 0;
     right:0;
 }
-
+.form{
+    
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
 @media only screen and (max-width: 1200px){
+ 
     .my-row{
         padding: 160px 0px 64px;
     }
@@ -77,6 +83,12 @@
 }
 
 @media only screen and (max-width: 992px){
+    .form{
+    
+        display: block;
+        /* flex-direction: row; */
+    }
+
     .my-row{
         padding: 120px 0px 48px;
     }
@@ -113,6 +125,7 @@
 }
 
 @media only screen and (max-width: 768px){
+  
     .my-row{
         padding: 100px 0px 48px;
     }
@@ -129,3 +142,4 @@
         width: 36px;
     }
 }
+
