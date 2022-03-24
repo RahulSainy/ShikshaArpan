@@ -11,24 +11,20 @@
       <h2>
           Schedule a Class
         </h2>
-      <form action="backend.php">
-          <div>
-              <label for="Subject"></label>
-          <select name="mysub" id="Subject">
-            <option value="">Enter Topic</option>
-            <option value="eng">English</option>
-            <option value="hin">Hindi</option>
-            <option value="math">Mathematics</option>
-            <option value="sci">Science</option>
-            <option value="comp">Computer</option>
-        </select>
-    </div>
-        <div class="timebox">
-            <h4>Enter Time</h4>
-          <input type="time" name="Time" placeholder="Enter Time" id="seltime">
+     <form action="">
+      <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Title" aria-label="Title" aria-describedby="basic-addon2">
         </div>
-        <button class="btn">Schedule</button>  
-      </form>
+      <div class="input-group mb-3">
+
+        <input type="time" class="form-control" placeholder="time" aria-label="time" aria-describedby="basic-addon2">
+      </div>
+       
+      <input type="text" class="form-control" placeholder="Description" aria-label="Description" aria-describedby="basic-addon2">
+      
+<button type="button" class="btn btn-success" routerLink="/dashboard/classes">Shedule</button>
+        
+     </form>
     </div>
     </div>
     

@@ -1,0 +1,25 @@
+.img{
+    width: 30%;
+}
+.box{
+  text-align: center;
+}
+.sub-button {
+    width: 40%;
+    margin: 0% 30%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.submit {
+    font-size: medium;
+    font-weight: 500;
+    padding: 2% 3.5%;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 2em;
+    border: none;
+    margin: 2%;
+    background-color: #4fb3f6;
+    color: #ffffff;
+}

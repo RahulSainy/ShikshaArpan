@@ -35,7 +35,7 @@ section {
 
   #Subject {
     display: inline-block;
-  width: 60%;
+  width: 100%;
   padding: 9px;
   width: 200 px;
   /* background-color: rgb(233, 238, 240); */
@@ -50,7 +50,7 @@ section {
   border-radius: 6px;
   /* background: #dddddd; */
   /* height: 30px; */
-  width: 60%;
+  width: 100%;
   /* margin-right: 10px; */
   line-height: 40px;
   /* text-align: center; */
@@ -81,3 +81,22 @@ section {
     padding: 8px 24px;
     font-family: 'Baloo 2', cursive;
   }
+  .submit {
+    font-size: medium;
+    font-weight: 500;
+    padding: 2% 3.5%;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 2em;
+    border: none;
+    margin: 2%;
+    background-color: #4fb3f6;
+    color: #ffffff;
+  }
+  .sub-button {
+    width: 40%;
+    margin: 0% 30%;
+    display: flex;
+    justify-content: flex-end;
+    
+}

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AviablityComponent } from './aviablity.component';
+import { ApplySelectedComponent } from './apply-selected.component';
 
-describe('AviablityComponent', () => {
-  let component: AviablityComponent;
-  let fixture: ComponentFixture<AviablityComponent>;
+describe('ApplySelectedComponent', () => {
+  let component: ApplySelectedComponent;
+  let fixture: ComponentFixture<ApplySelectedComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ AviablityComponent ]
+      declarations: [ ApplySelectedComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AviablityComponent);
+    fixture = TestBed.createComponent(ApplySelectedComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,6 +1,7 @@
 * {
-    margin-top: 10px;
+    margin: 0;
 }
+
 
 .subbox {
     height: auto;
@@ -8,7 +9,7 @@
     margin: 3% 27.5% 5% 27.5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr ;
     column-gap: 12px;
     row-gap: 10px;
 
@@ -41,7 +42,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border-radius: 2em;
     border: none;
-    /* margin: 2%; */
+    margin: 2%;
     background-color: #4fb3f6;
     color: #ffffff;
 
@@ -59,7 +60,7 @@
         margin: 5% 4%;
         width: 92%;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
     }
 
     .subbutton {
@@ -88,37 +89,21 @@
   
   .weekDays-selector input[type=checkbox] + label {
     display: inline-block;
-    /* border: rgba(138, 138, 138, 0.671) solid 0.1em; */
-    border-radius: 3.2em;
-    background-color: cornflowerblue;
-    color: white;
-    /* box-shadow: 1px 1px 5px rgb(0 0 0 / 23%), -1px 0px 5px rgb(0 0 0 / 23%); */
-    /* font-size: large; */
-    /* font-weight: bolder; */
-    font-size: x-large;
-    padding: 12%;
+    border: rgba(138, 138, 138, 0.671) solid 0.1em;
+    border-radius: 0.2em;
+    background-color: #67b0e0;
+    color: aliceblue;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.233), -1px 0px 5px rgba(0, 0, 0, 0.233);
+    font-size: large;
+    font-weight: bolder;
+    padding:14%;
     text-transform: uppercase;
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     cursor: pointer;
   }
   
-  .weekDays-selector input[type=checkbox]:checked + label {
-    background:rgb(0, 140, 255);
+  /* .weekDays-selector input[type=checkbox]:checked + label {
+    background:rgb(19, 54, 83);
     color: #ffffff;
-  }
-
-
-  h1{
-    text-align: center;
-  }
-  .sub-img-size {
-    height: 30px;
-    width: 30px;
-    image-resolution: 100%;
-    padding-right:5%;
-}
-
-li{
-    list-style: none;
-}
+  } */

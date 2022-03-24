@@ -12,7 +12,6 @@ import { FooterComponent } from './navigation/footer/footer.component';
 import { ApplyComponent } from './tutor/apply/apply.component';
 import { ProfileComponent } from './tutor/profile/profile.component';
 import { QuizComponent } from './tutor/quiz/quiz.component';
-import { AviablityComponent } from './tutor/aviablity/aviablity.component';
 
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
@@ -20,6 +19,9 @@ import { environment } from 'src/environments/environment';
 import { AuthService } from './login/login-service.service';
 import { ClassesComponent } from './dashboard/classes/classes.component';
 import { DoubtComponent } from './dashboard/doubt/doubt.component';
+import { ApplySelectedComponent } from './tutor/apply-selected/apply-selected.component';
+import { AnswerComponent } from './dashboard/doubt/answer/answer.component';
+import { CongoComponent } from './tutor/congo/congo.component';
 
 @NgModule({
   declarations: [
@@ -32,10 +34,12 @@ import { DoubtComponent } from './dashboard/doubt/doubt.component';
     StudentComponent,
     ApplyComponent,
     QuizComponent,
-    AviablityComponent,
     ProfileComponent,
     ClassesComponent,
     DoubtComponent,
+    ApplySelectedComponent,
+    AnswerComponent,
+    CongoComponent,
   
   ],
   imports: [
