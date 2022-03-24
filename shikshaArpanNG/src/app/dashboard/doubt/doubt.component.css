@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.bodybox {
+    height: 80%;
+    display: flex;
+}
+
+.subject, .centerbox, .userpanel {
+    margin: 0.5%;
+}
+
+.subject {
+    width: 17%;
+    height: 100vh;
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: white;
+    font-weight: 1000;
+    border-radius: 0.5em;
+}
+.subject hr{
+    background-color: #ebf2f7;
+    color: #ebf2f7;
+    width: 80%;
+    position: relative;
+    left: 0%;
+
+}
+
+ ul {
+    list-style-type: none;
+    padding: 4%;
+}
+
+.subject ul li {
+    padding: 3% 0% 2% 0%;
+
+}
+
+.li-sub-img {
+    display: flex;
+    align-items: center;
+    color: #797979;
+
+}
+.li-sub-img:hover{
+    background-color: rgb(215, 249, 250);
+
+}
+
+.sub-img-size {
+    height: 30px;
+    width: 30px;
+    image-resolution: 100%;
+    padding-right:5%;
+}
+
+
+.centerbox {
+    width: 56%;
+    display: flex;
+    border: solid 2.5px #ebf2f7;
+    border-radius: 0.8em;
+    font-family: 'Secular One', sans-serif;
+    background-color: white;
+
+
+}
+.bigfont{
+    font-size: 8vh;
+}
+
+
+.usr {
+    display: flex;
+    align-items: center;
+}
+.commentbox h4{
+    font-weight: 120;
+    padding: 2%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.dp {
+    clip-path: circle(50% at 50% 50%);
+    height: 43px;
+    width: 43px;
+    overflow: hidden;
+}
+
+.dp img {
+    height: 100%;
+    width: 100%;
+}
+
+.username {
+    padding: 2%;
+
+}
+
+.askbutton {
+    background-color: #4fb3f6;
+    color: aliceblue;
+    border-radius: 5em;
+    border: none;
+    padding: 2% 3.4% 2% 3.4%;
+    font-size: medium;
+    font-weight: 1000;
+    text-transform: uppercase;
+    margin-left:5%;
+
+}
+.answerbutton{
+    /* background-color: #4fb3f6; */
+    color: rgb(16, 34, 49);
+    border-radius: 5em;
+    border: solid 3px rgb(16, 34, 49);
+    padding: 2% 3.4% 2% 3.4%;
+    font-size: medium;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin:0% 2% 3% 2%;
+    position: relative;
+    right: 0%;
+
+}
+
+.dropdown {
+    background-color: rgba(97, 97, 97, 0.726);
+    color: black;
+    margin: 2%;
+}
+
+.commentbox {
+    padding: 2.2%;
+    border-bottom: solid 1.2px #ebf2f7;
+}
+
+.userpanel {
+    height: 90vh;
+    width: 24%;
+    display: grid;
+    grid-gap: 2%;
+    grid-column: 0.5 0.5;
+    font-family: 'Secular One', sans-serif;
+    
+
+}
+
+.userpanel-grid {
+    padding: 2% 2% 2% 4%;
+    border: solid 2.5px #ebf2f7;
+    background-color: white;
+
+    border-radius: 0.5em;
+
+}
+
+.chat {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+
+    .subject, .userpanel {
+        display: none;
+    }
+
+    .bodybox {
+        width: 100%;
+    }
+
+    .centerbox {
+        width: 100%;
+    }
+
+    .chat {
+        display: inherit;
+        position: fixed;
+        bottom: 2%;
+        right: 4%;
+        clip-path: circle(50% at 50% 50%);
+        height: 50px;
+        width: 50px;
+        image-resolution: 100%;
+    }
+
+}
+
+/* dropdown css ///// */
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: rgb(233 235 237);
+    color: black;
+    padding: 12px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+    border-radius:3em;
+    text-transform: uppercase;
+    font-weight: 200;
+
+    
+
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 3em;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: rgb(200 216 233);
+}
+/*   student profile */
+#btn{
+            border-radius: 100px;
+            padding: 3px 13px;
+  margin-top:5px;
+  font-family: 'Secular One', sans-serif;
+  margin-bottom:10px;
+  border:#ebf2f7;
+  background-color:#4fb3f6;
+  color:white;
+     }
+.profile{
+  text-align:center;
+  
+}
+#btn:hover{
+    background-color: rgb(200 216 233);
+
+}
+.namep{
+  margin:0px;
+}

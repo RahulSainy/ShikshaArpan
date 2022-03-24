@@ -1,0 +1,154 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.side-user-profile{
+    margin-top: 20px;
+    padding: 20px;   
+}
+
+.side-user-header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.user-icon{
+    margin-right: 20px;
+}
+
+.user-icon > img {
+    width: 80px;
+    height:80px;
+    object-fit: cover;
+    border-radius:50%;
+}
+
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.username{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.current-pts{
+    background-color: #EBF2F7;
+    border-radius: 20px;
+    padding: 4px 12px;
+    font-weight: 600;
+}
+
+.current-pts > img {
+    max-width: 20px;
+}
+
+.side-user-ctrs{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ctr{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ctr-value{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+.ctr-line{
+    display:block;
+    content: '';
+    width: 2px;
+    background-color: #EBF2F7;
+}
+
+.edit-profile{
+    margin-top: 20px;
+    border: 2px solid #687B8C;
+    background-color: #EBF2F7;
+    border-radius: 20px;
+    width: 100%;
+    padding: 6px 0px;
+    transition: 0.4s;
+}
+
+.edit-profile:hover{
+    background-color: #7D8D9C;
+    color: white;
+}
+
+.edit-profile path{
+    transition: 0.4s;
+}
+
+.edit-profile:hover path{
+    fill: white;
+}
+
+.edit-profile > svg {
+    width: 100%;
+    max-width: 25px;
+    margin-right: 10px;
+}
+
+.message-icon-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.message-icon{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding: 6px;
+    background-color: #EBF2F7;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+.message-icon:hover{
+    background-color: #c6d1da;
+}
+
+.message-icon > svg {
+    width: 25px;
+}
+
+.side-user-footer{
+    margin-top: 20px;
+}
+
+.footer-header{
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EBF2F7;
+    margin-bottom: 10px;
+}
+
+.footer-detail{
+    font-weight: 600;
+}
+
+.footer-detail-item{
+    margin-bottom: 10px;
+}
+
+.detail-field{
+    font-weight: 400;
+}
+
+.detail-field > img {
+    max-width: 25px;
+    width: 100%;
+    margin-right: 10px;
+}

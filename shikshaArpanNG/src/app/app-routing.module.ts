@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ClassesComponent } from './dashboard/classes/classes.component';
+import { DoubtComponent } from './dashboard/doubt/doubt.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { AskQuesComponent } from './student/ask-ques/ask-ques.component';
+import { StudentComponent } from './student/student.component';
 import { ApplyComponent } from './tutor/apply/apply.component';
 import { ProfileComponent } from './tutor/profile/profile.component';
 import { QuizComponent } from './tutor/quiz/quiz.component';
@@ -15,8 +17,11 @@ const routes: Routes = [
   {path: 'tutor/shedule', component:ScheduleComponent},
   {path: 'tutor/profile', component:ProfileComponent},
   {path: 'tutor/quiz', component:QuizComponent},
-  {path: 'student/profile', component:ProfileComponent},/// change name .............
-  {path: 'student/ask-ques', component:AskQuesComponent},
+  {path: 'student', component:StudentComponent},
+  {path: 'dashboard/classes', component:ClassesComponent},
+  {path: 'dashboard/doubt', component:DoubtComponent},
+
+
 
 
 

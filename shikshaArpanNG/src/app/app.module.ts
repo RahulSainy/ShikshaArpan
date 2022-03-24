@@ -13,12 +13,13 @@ import { ApplyComponent } from './tutor/apply/apply.component';
 import { ProfileComponent } from './tutor/profile/profile.component';
 import { QuizComponent } from './tutor/quiz/quiz.component';
 import { AviablityComponent } from './tutor/aviablity/aviablity.component';
-import { AskQuesComponent } from './student/ask-ques/ask-ques.component';
 
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFireAuthModule } from '@angular/fire/compat/auth';
 import { environment } from 'src/environments/environment';
 import { AuthService } from './login/login-service.service';
+import { ClassesComponent } from './dashboard/classes/classes.component';
+import { DoubtComponent } from './dashboard/doubt/doubt.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { AuthService } from './login/login-service.service';
     QuizComponent,
     AviablityComponent,
     ProfileComponent,
-    AskQuesComponent,
+    ClassesComponent,
+    DoubtComponent,
   
   ],
   imports: [
